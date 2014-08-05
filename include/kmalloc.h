@@ -1,7 +1,7 @@
 #ifndef _KMALLOC_H_
 #define _KMALLOC_H_
 
-#define INIT_DMEM 0x400000
+#define INIT_DMEM 0xA00000 //10mb
 
 unsigned int kmalloc(int);
 
